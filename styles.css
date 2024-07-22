@@ -22,7 +22,8 @@ body {
     flex-direction: column;
     margin: 120px auto;
     border-radius: 30px;
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px); 
     will-change: auto;
     border: 2px solid white;
     
